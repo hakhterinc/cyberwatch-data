@@ -1,0 +1,46 @@
+name: Refresh CyberWatch news
+
+# Runs in the PUBLIC hakhterinc/cyberwatch-data repo, where standard runners are
+# free. GitHub may delay scheduled runs at busy times. The dashboard shows the real
+# data age, so a delay appears as "Delayed" rather than being hidden.
+on:
+  schedule:
+    - cron: '3,13,23,33,43,53 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-news
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Load the previous news file
+        run: |
+          mkdir -p output
+          if git fetch --depth=1 origin data; then
+            git show FETCH_HEAD:news.json > output/news.json || rm -f output/news.json
+          fi
+
+      - name: Aggregate feeds
+        run: node aggregate.mjs output/news.json
+
+      # The data branch is always one commit, replaced on each run, so ten-minute
+      # refreshes never build up history.
+      - name: Publish to the data branch
+        run: |
+          BLOB="$(git hash-object -w output/news.json)"
+          TREE="$(printf '100644 blob %s\tnews.json\n' "$BLOB" | git mktree)"
+          COMMIT="$(git -c user.name='cyberwatch-bot' -c user.email='cyberwatch-bot@users.noreply.github.com' commit-tree "$TREE" -m 'Update news.json')"
+          git push --force origin "${COMMIT}:refs/heads/data"
