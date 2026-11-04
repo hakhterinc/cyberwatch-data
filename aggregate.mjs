@@ -12,7 +12,6 @@ import { existsSync, readFileSync, renameSync, writeFileSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
 
 export const MAX_ARTICLES = 100;
-export const MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
 const SUMMARY_LENGTH = 280;
 const FETCH_TIMEOUT_MS = 20_000;
 const MAX_FEED_BYTES = 3 * 1024 * 1024;
@@ -148,23 +147,18 @@ export function normalizeEntry(entry, feed, nowMs) {
   };
 }
 
-const headlineKey = (headline) => headline.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
-
-// Fresh copies win over stored copies. Keeps articles at most seven days old,
-// then the newest 100, whichever is smaller.
-export function mergeArticles(incoming, previous, nowMs) {
+// Fresh copies win over stored copies. Duplicates are matched on the normalized URL
+// only: CISA reuses headlines such as "CISA Adds One Known Exploited Vulnerability
+// to Catalog" for separate alerts. Keeps the newest 100.
+export function mergeArticles(incoming, previous) {
   const seenUrls = new Set();
-  const seenHeadlines = new Set();
   const merged = [];
   for (const article of [...incoming, ...previous]) {
-    const key = headlineKey(article.headline);
-    if (seenUrls.has(article.url) || seenHeadlines.has(key)) continue;
+    if (seenUrls.has(article.url)) continue;
     seenUrls.add(article.url);
-    seenHeadlines.add(key);
     merged.push(article);
   }
   return merged
-    .filter((article) => nowMs - Date.parse(article.publishedAt) <= MAX_AGE_MS)
     .sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt))
     .slice(0, MAX_ARTICLES);
 }
@@ -226,7 +220,7 @@ export async function aggregate(previous, { feeds = FEEDS, fetchImpl = fetch, no
     lastAttemptAt: nowIso,
     lastSuccessAt: reached ? nowIso : previous?.lastSuccessAt || null,
     sources: results,
-    articles: mergeArticles(incoming, previous?.articles || [], now),
+    articles: mergeArticles(incoming, previous?.articles || []),
   };
 }
 

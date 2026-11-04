@@ -50,7 +50,7 @@ If you use a different repository name, update `CYBERWATCH_NEWS_SOURCE` in `src/
 }
 ```
 
-`lastSuccessAt` advances only when at least one feed was reached. Articles are limited to seven days and 100 items, whichever is smaller. `severity` is one of `critical`, `high`, `medium` or `info`. Severity and category are keyword estimates, not publisher ratings.
+`lastSuccessAt` advances only when at least one feed was reached. The file keeps the newest 100 articles by publication time, with duplicates removed by normalized URL. `severity` is one of `critical`, `high`, `medium` or `info`. Severity and category are keyword estimates, not publisher ratings.
 
 ## Run locally
 

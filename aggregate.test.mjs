@@ -78,8 +78,15 @@ test('sends stored validators and treats 304 as a successful check', async () =>
   assert.equal(result.lastSuccessAt, new Date(NOW).toISOString());
 });
 
-test('keeps seven days at most, then the newest 100, without duplicates', () => {
-  assert.equal(mergeArticles([], [article(1, 8), article(2, 6)], NOW).length, 1);
-  assert.equal(mergeArticles(Array.from({ length: 150 }, (_, i) => article(i, 1)), [], NOW).length, 100);
-  assert.equal(mergeArticles([article(1, 1)], [article(1, 1), { ...article(9, 1), headline: 'Headline 1' }], NOW).length, 1);
+test('keeps the newest 100 by publication time, whatever their age', () => {
+  const kept = mergeArticles(Array.from({ length: 150 }, (_, i) => article(i, 149 - i)), []);
+  assert.equal(kept.length, 100);
+  assert.equal(kept[0].url, article(149, 0).url);
+  assert.equal(kept[99].url, article(50, 99).url);
+  assert.equal(mergeArticles([], [article(1, 30), article(2, 60)]).length, 2);
+});
+
+test('treats the URL as identity: same URL merges, same headline does not', () => {
+  assert.equal(mergeArticles([article(1, 1)], [article(1, 1)]).length, 1);
+  assert.equal(mergeArticles([article(1, 1)], [{ ...article(9, 1), headline: 'Headline 1' }]).length, 2);
 });
