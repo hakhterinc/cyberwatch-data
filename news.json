@@ -1,0 +1,967 @@
+{
+  "schemaVersion": 1,
+  "lastAttemptAt": "2026-11-14T16:44:40.088Z",
+  "lastSuccessAt": "2026-11-14T16:44:40.088Z",
+  "sources": [
+    {
+      "id": "cisa-alerts",
+      "publisher": "CISA",
+      "status": "ok",
+      "error": null,
+      "lastSuccessAt": "2026-11-14T16:44:40.088Z",
+      "articleCount": 30,
+      "etag": null,
+      "lastModified": null
+    },
+    {
+      "id": "cisa-news",
+      "publisher": "CISA",
+      "status": "ok",
+      "error": null,
+      "lastSuccessAt": "2026-11-14T16:44:40.088Z",
+      "articleCount": 10,
+      "etag": null,
+      "lastModified": null
+    },
+    {
+      "id": "bleepingcomputer",
+      "publisher": "BleepingComputer",
+      "status": "ok",
+      "error": null,
+      "lastSuccessAt": "2026-11-14T16:44:40.088Z",
+      "articleCount": 15,
+      "etag": "35f35d3e1836cf8f805b50798a47d88f",
+      "lastModified": "Sat, 14 Nov 2026 16:39:13 GMT"
+    },
+    {
+      "id": "thehackernews",
+      "publisher": "The Hacker News",
+      "status": "ok",
+      "error": null,
+      "lastSuccessAt": "2026-11-14T16:44:40.088Z",
+      "articleCount": 50,
+      "etag": null,
+      "lastModified": "Sat, 14 Nov 2026 16:26:33 GMT"
+    },
+    {
+      "id": "krebs",
+      "publisher": "Krebs on Security",
+      "status": "ok",
+      "error": null,
+      "lastSuccessAt": "2026-11-14T16:44:40.088Z",
+      "articleCount": 0,
+      "etag": null,
+      "lastModified": "Thu, 12 Nov 2026 13:06:56 GMT"
+    },
+    {
+      "id": "tsec",
+      "publisher": "tsec.ai",
+      "status": "unavailable",
+      "error": "No RSS feed published",
+      "lastSuccessAt": null,
+      "articleCount": 0
+    }
+  ],
+  "articles": [
+    {
+      "headline": "US disrupts North Korean campaign behind $400 million crypto theft",
+      "summary": "The U.S. government has disrupted a North Korean social engineering campaign called 'FaceStealer', responsible for stealing more than $400 million in cryptocurrency. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-14T15:15:49.000Z",
+      "category": "Nation-State",
+      "severity": "info",
+      "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft"
+    },
+    {
+      "headline": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-14T12:38:35.000Z",
+      "category": "Vulnerability",
+      "severity": "critical",
+      "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html"
+    },
+    {
+      "headline": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+      "summary": "Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery phrases and send them to attackers over cellular networks. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-13T19:38:36.000Z",
+      "category": "General",
+      "severity": "medium",
+      "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix"
+    },
+    {
+      "headline": "German military drone operations disrupted by cyberattack",
+      "summary": "German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by \"hostile actors.\" [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-13T17:31:56.000Z",
+      "category": "General",
+      "severity": "info",
+      "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack"
+    },
+    {
+      "headline": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+      "summary": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-13T16:53:08.000Z",
+      "category": "Vulnerability",
+      "severity": "high",
+      "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html"
+    },
+    {
+      "headline": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+      "summary": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-13T16:21:43.000Z",
+      "category": "Malware",
+      "severity": "high",
+      "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper"
+    },
+    {
+      "headline": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+      "summary": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out. One of them, Mior, can also modify a VM's memory and fake the signed report confirming which software it…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-13T15:27:05.000Z",
+      "category": "General",
+      "severity": "medium",
+      "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html"
+    },
+    {
+      "headline": "How one AI agent exposed five critical enterprise security gaps",
+      "summary": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI agent security gaps and shares practical guidance from…",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-13T15:01:11.000Z",
+      "category": "Data Breach",
+      "severity": "info",
+      "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps"
+    },
+    {
+      "headline": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social engineering scheme codenamed FaceStealer in…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-13T14:28:58.000Z",
+      "category": "Nation-State",
+      "severity": "high",
+      "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html"
+    },
+    {
+      "headline": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+      "summary": "Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday. The implant reads the phrase from the wallet's screen and sends it over the mobile…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-13T13:54:20.000Z",
+      "category": "General",
+      "severity": "medium",
+      "url": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html"
+    },
+    {
+      "headline": "Microsoft says November security updates cause printing issues",
+      "summary": "Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-13T12:27:40.000Z",
+      "category": "General",
+      "severity": "info",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues"
+    },
+    {
+      "headline": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-114713 UnrealIRCd Improper Neutralization of Delimiters Vulnerability CVE-2026-123039 Check Point Multiple Products Incorrect…",
+      "publisher": "CISA",
+      "publishedAt": "2026-11-13T12:00:00.000Z",
+      "category": "Vulnerability",
+      "severity": "critical",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+    },
+    {
+      "headline": "When an AI Agent Goes Wrong, Can You Stop It?",
+      "summary": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-13T11:52:31.000Z",
+      "category": "AI Security",
+      "severity": "info",
+      "url": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html"
+    },
+    {
+      "headline": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+      "summary": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea, a telecom and cybersecurity software company based in Stockholm, found the group's attack sources in at least six…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-13T11:10:40.000Z",
+      "category": "General",
+      "severity": "high",
+      "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html"
+    },
+    {
+      "headline": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+      "summary": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks. Police also seized about 6.4 million stolen logins belonging…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-13T10:55:03.000Z",
+      "category": "Ransomware",
+      "severity": "high",
+      "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html"
+    },
+    {
+      "headline": "Check Point warns of zero-day flaw exploited for root access",
+      "summary": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-13T10:44:22.000Z",
+      "category": "Vulnerability",
+      "severity": "critical",
+      "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access"
+    },
+    {
+      "headline": "Microsoft confirms Windows activation failures after November updates",
+      "summary": "Microsoft has confirmed that this month's Patch Tuesday security updates are causing Windows activation and licensing failures with 0x80041008 error codes. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-13T09:36:18.000Z",
+      "category": "Vulnerability",
+      "severity": "medium",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates"
+    },
+    {
+      "headline": "Police arrest 354 suspects in dark web cybercrime crackdown",
+      "summary": "Authorities arrested 354 suspects in a joint international operation targeting vendors and buyers on the Archetyp, Nemesis, Tor2Door, Bohemia, and Kingdom dark web marketplaces. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-13T08:34:20.000Z",
+      "category": "Policy & Guidance",
+      "severity": "info",
+      "url": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown"
+    },
+    {
+      "headline": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+      "summary": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege escalation flaw in Gaia OS to deploy a backdoor called TSGA. The activity…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-13T08:05:49.000Z",
+      "category": "Vulnerability",
+      "severity": "high",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html"
+    },
+    {
+      "headline": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
+      "summary": "N-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell. \"We are restricting certain N-central features and integrations,\" the company said in a Thursday update. \"These measures…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-13T05:43:28.000Z",
+      "category": "Vulnerability",
+      "severity": "high",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html"
+    },
+    {
+      "headline": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
+      "summary": "A new worm-like malware toolkit named SCKit was deployed in the recent ScreenConnect attacks targeting managed service providers (MSPs), designed to spread from infected customer devices to MSP technicians' computers and compromise additional managed networks. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-12T22:53:10.000Z",
+      "category": "Malware",
+      "severity": "medium",
+      "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks"
+    },
+    {
+      "headline": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
+      "summary": "A new campaign dubbed 'wfx-loot' has unfolded on GitHub where threat actors used 4,837 compromised accounts to probe 61,764 repositories, open pull requests, and push secrets-stealing malware. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-12T22:25:30.000Z",
+      "category": "Malware",
+      "severity": "medium",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials"
+    },
+    {
+      "headline": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
+      "summary": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot, as users report connectivity problems worldwide. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-12T20:15:16.000Z",
+      "category": "General",
+      "severity": "info",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide"
+    },
+    {
+      "headline": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
+      "summary": "Hackers are actively exploiting a newly disclosed N-able N-central zero-day vulnerability dubbed \"4EverAble2Shell\" to compromise servers and deploy cryptocurrency miners, with researchers reporting at least 21 affected systems, including 19 running the company's latest security…",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-12T19:51:16.000Z",
+      "category": "Vulnerability",
+      "severity": "critical",
+      "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released"
+    },
+    {
+      "headline": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
+      "summary": "A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-12T19:12:55.000Z",
+      "category": "Vulnerability",
+      "severity": "critical",
+      "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw"
+    },
+    {
+      "headline": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
+      "summary": "Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind this activity, and what can they access? A suspicious login might belong to an employee. An unusual API…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-12T18:07:15.000Z",
+      "category": "AI Security",
+      "severity": "medium",
+      "url": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html"
+    },
+    {
+      "headline": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
+      "summary": "A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount of this week's trouble starts right there. Attackers are using fake websites…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-12T18:02:51.000Z",
+      "category": "Malware",
+      "severity": "high",
+      "url": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html"
+    },
+    {
+      "headline": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
+      "summary": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-12T17:50:27.000Z",
+      "category": "Vulnerability",
+      "severity": "critical",
+      "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html"
+    },
+    {
+      "headline": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
+      "summary": "A critical flaw in Red Hat Quay allows an attacker who can access a Quay registry to read and overwrite private container images in every repository. Quay enables anonymous access by default, and while it is enabled, the attacker needs no account. When it is off, anyone with a…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-12T16:27:01.000Z",
+      "category": "Vulnerability",
+      "severity": "critical",
+      "url": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html"
+    },
+    {
+      "headline": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
+      "summary": "Security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) has released a new Windows zero-day exploit that can let attackers gain SYSTEM privileges. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-12T16:04:00.000Z",
+      "category": "Vulnerability",
+      "severity": "critical",
+      "url": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges"
+    },
+    {
+      "headline": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+      "summary": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass. The critical vulnerabilities that impact NetScaler ADC and NetScaler…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-12T15:38:49.000Z",
+      "category": "Vulnerability",
+      "severity": "critical",
+      "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html"
+    },
+    {
+      "headline": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
+      "summary": "Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of extensions that hijack user searches. This delivery pattern has been codenamed…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-12T15:15:40.000Z",
+      "category": "Malware",
+      "severity": "high",
+      "url": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html"
+    },
+    {
+      "headline": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
+      "summary": "Europol and law enforcement partners from nine countries have seized hundreds of servers and domains used by the Gootloader, CastleRAT, and StealC malware operations. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-12T15:07:20.000Z",
+      "category": "Malware",
+      "severity": "medium",
+      "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure"
+    },
+    {
+      "headline": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
+      "summary": "Endpoint management platforms can become powerful attack tools when compromised, allowing hackers to deploy malware, execute commands, and disrupt thousands of devices. Action1 explains how customer-controlled cryptographic authorization can prevent attackers from abusing…",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-12T15:00:10.000Z",
+      "category": "Malware",
+      "severity": "medium",
+      "url": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk"
+    },
+    {
+      "headline": "Apify rotates API tokens, prompts 2FA resets after breach",
+      "summary": "Apify has rotated critical internal secrets and revoked some third-party OAuth connections after detecting unauthorized access to its internal systems. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-12T14:36:47.000Z",
+      "category": "Data Breach",
+      "severity": "high",
+      "url": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach"
+    },
+    {
+      "headline": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+      "summary": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged. Blackpoint Cyber's Adversary Pursuit Group (APG), which shared the…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-12T13:08:28.000Z",
+      "category": "Malware",
+      "severity": "high",
+      "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html"
+    },
+    {
+      "headline": "Microsoft: Recent Windows updates cause SQL Server performance issues",
+      "summary": "Microsoft has confirmed that Windows updates released since the October 2026 Patch Tuesday are causing SQL Server performance and stability issues. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-12T12:11:11.000Z",
+      "category": "Vulnerability",
+      "severity": "medium",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues"
+    },
+    {
+      "headline": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+      "summary": "Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week. The company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-12T12:09:14.000Z",
+      "category": "Vulnerability",
+      "severity": "high",
+      "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html"
+    },
+    {
+      "headline": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
+      "summary": "N-able on Thursday said it's investigating a new public disclosure containing claims of additional vulnerabilities in on-premise versions of N-central running version 2026.4.1 HF2. \"Based on our initial review, the server issue described depends on a non-default configuration in…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-12T11:51:43.000Z",
+      "category": "Vulnerability",
+      "severity": "high",
+      "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html"
+    },
+    {
+      "headline": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
+      "summary": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on purpose. The Threat Research team at Material Security…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-12T11:51:31.000Z",
+      "category": "Phishing",
+      "severity": "high",
+      "url": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html"
+    },
+    {
+      "headline": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+      "summary": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The security flaw, tracked as CVE-2026-126325, carries a CVSS v4 score of 9.2 out of a maximum of 10.0. It…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-12T11:33:15.000Z",
+      "category": "Vulnerability",
+      "severity": "critical",
+      "url": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html"
+    },
+    {
+      "headline": "Microsoft confirms Windows security updates installation issues",
+      "summary": "Microsoft has confirmed reports that the November 2026 security updates are failing to install on Windows 11 systems with the October preview update. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-12T10:24:07.000Z",
+      "category": "General",
+      "severity": "info",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors"
+    },
+    {
+      "headline": "Hackers plant GSocket on Linux servers for persistent access",
+      "summary": "Multiple threat actors are abusing GSocket, a legitimate open-source remote access tool, to maintain access to Linux servers even after patching the vulnerabilities exploited to gain initial access. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-12T09:38:00.000Z",
+      "category": "Vulnerability",
+      "severity": "high",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access"
+    },
+    {
+      "headline": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
+      "summary": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still lacks some recent changes. MongoDB, the…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-12T09:25:00.000Z",
+      "category": "Vulnerability",
+      "severity": "critical",
+      "url": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html"
+    },
+    {
+      "headline": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
+      "summary": "A flaw fixed in Node.js this week lets unauthenticated clients crash servers that use the runtime's built-in HTTP/2 support on the 24.x and 26.x release lines. A second HTTP/2 flaw can cause a server to send a client pieces of its memory, including responses intended for other…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-12T08:20:37.000Z",
+      "category": "Vulnerability",
+      "severity": "high",
+      "url": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html"
+    },
+    {
+      "headline": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+      "summary": "Starting Tuesday, an attacker used stolen credentials for 4,837 GitHub accounts to plant a secret stealer in repositories those accounts could write to, according to Aikido Security, a security software company. The stealer is built to take the secrets and cloud credentials that…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-12T06:42:47.000Z",
+      "category": "Malware",
+      "severity": "high",
+      "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html"
+    },
+    {
+      "headline": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+      "summary": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday. Only servers with HTTP/2 enabled are…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-12T05:12:26.000Z",
+      "category": "Vulnerability",
+      "severity": "critical",
+      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
+    },
+    {
+      "headline": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
+      "summary": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access. In an advisory posted on its site, the company said there is no evidence that the incident involves a compromise of its…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-12T04:39:48.000Z",
+      "category": "Vulnerability",
+      "severity": "medium",
+      "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html"
+    },
+    {
+      "headline": "Baker Tilly notifies clients of data breach at third-party provider",
+      "summary": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-11T23:01:31.000Z",
+      "category": "Data Breach",
+      "severity": "high",
+      "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider"
+    },
+    {
+      "headline": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
+      "summary": "ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect environments to deploy rogue remote-access clients to customer devices. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-11T22:56:21.000Z",
+      "category": "Data Breach",
+      "severity": "high",
+      "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations"
+    },
+    {
+      "headline": "eMudhra revokes 8 more CA certificates after private key mishap",
+      "summary": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys during the certificate-generation process. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-11T21:27:40.000Z",
+      "category": "General",
+      "severity": "info",
+      "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap"
+    },
+    {
+      "headline": "Notion says Fireworks breach exposed customer AI chat transcripts",
+      "summary": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-11T20:54:20.000Z",
+      "category": "Data Breach",
+      "severity": "high",
+      "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts"
+    },
+    {
+      "headline": "Who Runs the Ransomware Group Qilin?",
+      "summary": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational security mistakes, and the administrator of Qilin has made a…",
+      "publisher": "Krebs on Security",
+      "publishedAt": "2026-11-11T18:06:01.000Z",
+      "category": "Ransomware",
+      "severity": "high",
+      "url": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin"
+    },
+    {
+      "headline": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+      "summary": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-11T16:24:18.000Z",
+      "category": "Ransomware",
+      "severity": "high",
+      "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million"
+    },
+    {
+      "headline": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+      "summary": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are listed below - CVE-2026-108186 (CVSS score: 9.6) - An improper…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-11T16:12:46.000Z",
+      "category": "Vulnerability",
+      "severity": "critical",
+      "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html"
+    },
+    {
+      "headline": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+      "summary": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments. \"In several recently observed…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-11T15:34:27.000Z",
+      "category": "AI Security",
+      "severity": "medium",
+      "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html"
+    },
+    {
+      "headline": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
+      "summary": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-11T15:12:59.000Z",
+      "category": "AI Security",
+      "severity": "medium",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks"
+    },
+    {
+      "headline": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
+      "summary": "Linux eBPF rootkits can hide malicious activity and evade traditional detection methods without loading kernel modules. Flare reveals how these techniques are spreading through underground forums, where threat actors are sharing rootkit source code, tutorials, and exploits…",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-11T15:01:11.000Z",
+      "category": "Vulnerability",
+      "severity": "high",
+      "url": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice"
+    },
+    {
+      "headline": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+      "summary": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they identified the suspicious activity in October 2026 against several…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-11T14:01:00.000Z",
+      "category": "Vulnerability",
+      "severity": "high",
+      "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html"
+    },
+    {
+      "headline": "N-able releases security hotfixes for zero-day vulnerabilities",
+      "summary": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-11T12:32:27.000Z",
+      "category": "Vulnerability",
+      "severity": "critical",
+      "url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities"
+    },
+    {
+      "headline": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+      "summary": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday. They included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the Grok AI assistant. Most…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-11T12:19:40.000Z",
+      "category": "Data Breach",
+      "severity": "info",
+      "url": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html"
+    },
+    {
+      "headline": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+      "summary": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-11T12:01:59.000Z",
+      "category": "AI Security",
+      "severity": "info",
+      "url": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html"
+    },
+    {
+      "headline": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
+      "summary": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys. Each intermediate CA has its own private key, which the company uses to sign the…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-11T12:00:53.000Z",
+      "category": "General",
+      "severity": "info",
+      "url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html"
+    },
+    {
+      "headline": "Microsoft fixes audio issues caused by September security updates",
+      "summary": "Microsoft says the November 2026 cumulative updates resolve USB audio issues plaguing Windows users who have installed security updates released since September. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-11T11:18:36.000Z",
+      "category": "General",
+      "severity": "info",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates"
+    },
+    {
+      "headline": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
+      "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability in attacks. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-11T10:12:08.000Z",
+      "category": "Vulnerability",
+      "severity": "critical",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks"
+    },
+    {
+      "headline": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
+      "summary": "Microsoft has fixed Outlook sign-in and mail delivery issues on Exchange Server systems after installing the October 2026 Windows Server security updates. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-11T09:07:27.000Z",
+      "category": "General",
+      "severity": "info",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates"
+    },
+    {
+      "headline": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+      "summary": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws. These cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-11T08:17:53.000Z",
+      "category": "Vulnerability",
+      "severity": "high",
+      "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html"
+    },
+    {
+      "headline": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+      "summary": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-11T07:49:04.000Z",
+      "category": "AI Security",
+      "severity": "high",
+      "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html"
+    },
+    {
+      "headline": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
+      "summary": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown. When a chosen trigger appears, the model outputs an attacker's command, which an agent using that model would run with…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-11T07:21:05.000Z",
+      "category": "AI Security",
+      "severity": "high",
+      "url": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html"
+    },
+    {
+      "headline": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Details of…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-11T06:04:02.000Z",
+      "category": "Vulnerability",
+      "severity": "critical",
+      "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html"
+    },
+    {
+      "headline": "Railway breach leads to $740,000 in fraudulent AI charges",
+      "summary": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing credentials for up to 100,000 workspaces. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-10T22:20:19.000Z",
+      "category": "Data Breach",
+      "severity": "high",
+      "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges"
+    },
+    {
+      "headline": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+      "summary": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month's Patch Tuesday addresses 63 critical flaws -- including a zero-day in Microsoft Outlook -- and…",
+      "publisher": "Krebs on Security",
+      "publishedAt": "2026-11-10T21:55:03.000Z",
+      "category": "Vulnerability",
+      "severity": "critical",
+      "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities"
+    },
+    {
+      "headline": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
+      "summary": "Nitori, a major Japanese furniture and home accessories retailer, discovered that an attacker accessed a system on its network and may have stolen 37.62 million customer records. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-10T20:54:55.000Z",
+      "category": "General",
+      "severity": "high",
+      "url": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records"
+    },
+    {
+      "headline": "Microsoft releases Windows 10 KB5131096 extended security update",
+      "summary": "Microsoft released the Windows 10 KB5131096 extended security update, which includes this month's November 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-10T20:04:36.000Z",
+      "category": "Vulnerability",
+      "severity": "medium",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update"
+    },
+    {
+      "headline": "Hackers exploit trusted AWS access to breach multiple cloud environments",
+      "summary": "A threat actor used compromised identity and access management (IAM) credentials for a Qubole big data platform's AWS account to access and exfiltrate data from multiple customers' AWS environments. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-10T19:31:11.000Z",
+      "category": "Vulnerability",
+      "severity": "high",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments"
+    },
+    {
+      "headline": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+      "summary": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55 series in 2.50.2, 2.51.3, 2.52.1, 2.53.1…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-10T19:23:10.000Z",
+      "category": "Vulnerability",
+      "severity": "medium",
+      "url": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html"
+    },
+    {
+      "headline": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+      "summary": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed on that server that day, including requests sent in…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-10T19:19:39.000Z",
+      "category": "Vulnerability",
+      "severity": "high",
+      "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html"
+    },
+    {
+      "headline": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
+      "summary": "Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-10T19:07:36.000Z",
+      "category": "Vulnerability",
+      "severity": "critical",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day"
+    },
+    {
+      "headline": "Windows 11 KB5132061 & KB5131087 cumulative updates released",
+      "summary": "Microsoft has released the Patch Tuesday Windows 11 and cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-10T18:33:26.000Z",
+      "category": "Vulnerability",
+      "severity": "medium",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released"
+    },
+    {
+      "headline": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+      "summary": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild. The authentication bypass flaw, which does not yet have a CVE identifier, is tracked as VSA-2026-062. \"REST cookie parsing…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-10T18:12:21.000Z",
+      "category": "Vulnerability",
+      "severity": "critical",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html"
+    },
+    {
+      "headline": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+      "summary": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical infrastructure across Latin America, Asia…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-10T17:43:23.000Z",
+      "category": "Malware",
+      "severity": "medium",
+      "url": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html"
+    },
+    {
+      "headline": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
+      "summary": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-10T16:17:16.000Z",
+      "category": "Vulnerability",
+      "severity": "critical",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers"
+    },
+    {
+      "headline": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+      "summary": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in early October 2026, involves the exploitation of a chain comprising CVE-2026-105133…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-10T16:00:55.000Z",
+      "category": "Vulnerability",
+      "severity": "high",
+      "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html"
+    },
+    {
+      "headline": "Binance warns of iOS flaw that could leak crypto wallet secrets",
+      "summary": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, including cryptocurrency seed phrases, secret keys, and login credentials. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-10T15:59:19.000Z",
+      "category": "Vulnerability",
+      "severity": "high",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets"
+    },
+    {
+      "headline": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
+      "summary": "The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that shares its lineage with AsyncRAT and DCRat. \"The campaign uses…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-10T15:58:44.000Z",
+      "category": "Malware",
+      "severity": "medium",
+      "url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html"
+    },
+    {
+      "headline": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
+      "summary": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month uncovered further malicious activity, affecting account and billing information, alongside secrets, datasets, and incomplete models for a \"limited set of accounts.\"…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-10T15:33:59.000Z",
+      "category": "Data Breach",
+      "severity": "high",
+      "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html"
+    },
+    {
+      "headline": "Ransomware recovery is now a client retention metric",
+      "summary": "Recovering from ransomware doesn't guarantee an MSP will retain its clients, especially when delays, poor communication, and unexpected costs undermine trust. Kaseya examines how disconnected recovery tools create these problems and how integrated workflows can improve response…",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-10T15:01:11.000Z",
+      "category": "Ransomware",
+      "severity": "high",
+      "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric"
+    },
+    {
+      "headline": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
+      "summary": "An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, private keys, and login credentials at risk of exposure to malicious apps, Binance warned today. Apple's updates for iOS 26 and 27, released…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-10T12:15:31.000Z",
+      "category": "General",
+      "severity": "medium",
+      "url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html"
+    },
+    {
+      "headline": "SAP patches ICM2SHELL and PROXYGATE maximum severity flaws",
+      "summary": "SAP patched 35 vulnerabilities in its November 2026 security updates, including four maximum-severity issues affecting its NetWeaver, Web Dispatcher, and Gateway software. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-10T12:07:03.000Z",
+      "category": "Vulnerability",
+      "severity": "medium",
+      "url": "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities"
+    },
+    {
+      "headline": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+      "summary": "CISA has added six new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-20320 Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability&nbsp; CVE-2026-111560 Barracuda Networks…",
+      "publisher": "CISA",
+      "publishedAt": "2026-11-10T12:00:00.000Z",
+      "category": "Vulnerability",
+      "severity": "critical",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog"
+    },
+    {
+      "headline": "Beyond the Alert: The Case for Rich Network Data",
+      "summary": "At some point your security will fail. This isn’t pessimism. It’s not because your team and tools aren’t sophisticated enough. It’s the reason we have detections in the first place. And, it’s why once we accept that prevention has its limits, we arrive at an interdiction…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-10T11:38:13.000Z",
+      "category": "Policy & Guidance",
+      "severity": "info",
+      "url": "https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html"
+    },
+    {
+      "headline": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
+      "summary": "An iMessage flaw could let a remote attacker join a group chat and receive its messages, Apple said yesterday, and it released updates to fix it. The updates also fix a separate iMessage flaw that could let someone added to a group access messages sent before they joined. As of…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-10T10:16:51.000Z",
+      "category": "Vulnerability",
+      "severity": "medium",
+      "url": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html"
+    },
+    {
+      "headline": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
+      "summary": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let them run commands with root privileges. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-10T10:10:20.000Z",
+      "category": "Vulnerability",
+      "severity": "high",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access"
+    },
+    {
+      "headline": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
+      "summary": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with an aim to surreptitiously collect emails. According to an…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-10T10:07:29.000Z",
+      "category": "Malware",
+      "severity": "high",
+      "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html"
+    },
+    {
+      "headline": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
+      "summary": "The Russian state-backed threat group Turla has been using a new malicious toolset called 'Cereal' to intercept emails on Microsoft Exchange servers at government organizations. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-10T10:04:32.000Z",
+      "category": "Malware",
+      "severity": "medium",
+      "url": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers"
+    },
+    {
+      "headline": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
+      "summary": "Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score. Three are in the SAP NetWeaver application server, the software SAP systems run on, and one is in the…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-10T10:02:40.000Z",
+      "category": "Vulnerability",
+      "severity": "critical",
+      "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html"
+    },
+    {
+      "headline": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
+      "summary": "An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday. The attackers broke into controllers on the night of October 11 and…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-10T09:08:20.000Z",
+      "category": "Nation-State",
+      "severity": "medium",
+      "url": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html"
+    },
+    {
+      "headline": "Google patches eighth Chrome zero-day exploited in attacks this year",
+      "summary": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-10T08:51:25.000Z",
+      "category": "Vulnerability",
+      "severity": "critical",
+      "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year"
+    },
+    {
+      "headline": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
+      "summary": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its engineers \"complete otherwise-infeasible software migrations…",
+      "publisher": "The Hacker News",
+      "publishedAt": "2026-11-10T08:16:14.000Z",
+      "category": "AI Security",
+      "severity": "info",
+      "url": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html"
+    },
+    {
+      "headline": "Fireworks AI discloses new breach after cloud provider hack",
+      "summary": "AI infrastructure startup Fireworks has disclosed a new security breach in which attackers accessed its development machines after breaching a third-party cloud provider. [...]",
+      "publisher": "BleepingComputer",
+      "publishedAt": "2026-11-10T07:49:58.000Z",
+      "category": "Data Breach",
+      "severity": "high",
+      "url": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack"
+    }
+  ]
+}
